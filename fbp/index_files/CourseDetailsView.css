@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&subset=latin-ext');
+
+/* AD-HOC SECTION */
+
+.adHocMessageSection{
+       background-color: #b00000;
+       color: white;
+       padding: 20px;
+       font-size: 35px;
+       height: 100%;
+       overflow: hidden;
+}
+
+/* MAIN SECTION */
+
+.courseMainSection{
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center center;
+//  background-clip:border-box;
+//  background-origin: padding-box;
+//  background-position-x: 50%;
+//  background-position-y: 100%;
+  
+}
+
+@media (max-width: 767px) {
+  .courseMainSection{
+  background-attachment: scroll;
+  }
+}
+
+.title{
+   font-size:45px; 
+}
+.title-middle{
+   font-size: 30px;
+}
+
+/* HEADER SECTION */
+
+.courseDetailsContent{
+   font-family: Work Sans;
+}
+.courseHeaderSection{
+   color:white;
+   font-weight:100;
+   padding: 6em;
+}
+@media (max-width: 767px) {
+  .courseHeaderSection{
+     padding: 2em 0;
+  }
+}
+
+.courseTitle{
+  font-size: 45px;   
+  font-weight: 300;
+}
+.subTitle{
+    font-size:30px;
+    margin-bottom: 2em;
+    font-weight: 300;
+}
+@media (max-width: 767px) {
+  .courseTitle{
+    text-align: center;   
+    margin-bottom: 0.5em;
+  }
+  .subTitle{
+    display:none;
+  }
+}
+#btn-broadcast{
+    color:white;
+    background-color:#0066cc;
+    margin-bottom: 10px;
+    width: 164px;
+}
+#btn-video{
+    color:white;
+    background-color:#0066cc;
+    margin-bottom: 10px;
+    width: 164px;
+}
+#btn-video-bottom{
+    color:white;
+    background-color:#0066cc;
+    margin-bottom: 10px;
+    width: 164px;
+}
+#btn-admin{
+    color:white;
+    background-color:#003f7d;
+    margin-bottom: 10px;
+    width: 164px;
+}
+#btn-admin:hover{
+    color:white;
+    background-color:#0066cc;
+}
+.iconsRow{
+//  margin-top: 4em;
+}
+iconsRowAdmin{
+  margin-top: 2em;
+}
+.CourseIcon{
+  margin-top:2em;
+} 
+.iconTitle{
+  margin-top:0.5em;
+  font-size: 25px;
+  font-weight: 300;
+}
+.iconText{
+    font-size: 20px;
+    font-weight: 300;
+}
+.iconText a {
+    color: white;
+    text-decoration: underline;
+}
+.iconText a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.clickable{
+  cursor:pointer;
+}
+
+/* BUTTON SECTION */
+
+.buttonSection{
+  padding:2em 0;
+}
+#btn-freeRegistration{
+    color:white;
+    background-color:red;
+    padding:15px;
+    text-transform: uppercase;
+}
+#btn-freeRegistrationUpper{
+    color:white;
+    background-color: red;
+    margin-bottom: 10px;
+    width: 164px;
+    white-space: normal;
+}
+#btn-registrationUpper{
+    color:white;
+    background-color:#0066cc;
+    padding: 12px;
+    text-transform: uppercase;
+    width: 164px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#btn-registration{
+    color:white;
+    background-color:#0066cc;
+    padding:15px;
+    text-transform: uppercase;
+    width: 300px;
+}
+#btn-OtherRegistrationBtn{
+    color:white;
+    background-color:#0066cc;
+    padding: 14px;
+    text-transform: uppercase;
+    /* width: 300px; */
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#btn-subscriptionUpper{
+    color:white;
+    background-color:#cc0000;
+    width: 164px;
+    margin-bottom: 10px;
+    white-space: normal;
+}
+#btn-subscriptionUpper:hover{
+    color:white;
+    background-color:#0066cc;
+}
+#btn-subscription{
+    color:white;
+    background-color:#cc0000;
+    padding:15px;
+    text-transform: uppercase;
+    width: 300px;
+}
+#btn-subscription:hover{
+    color:white;
+    background-color:#0066cc;
+}
+
+#btn-just-subscription{
+    color:white;
+    background-color:#cc0000;
+    padding:15px;
+    text-transform: uppercase;
+}
+#btn-just-subscription:hover{
+    color:white;
+    background-color:#0066cc;
+}
+#btn-just-subscriptionUpper{
+    color:white;
+    background-color:#cc0000;
+    padding: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 164px;
+    font-size: 11px;
+}
+#btn-just-subscriptionUpper:hover{
+    color:white;
+    background-color:#0066cc;
+}
+.or{
+  padding:15px;
+}
+.otherRegistrationText{
+  color:white;
+  display: none;
+}
+@media screen and (max-width: 991px) {	
+.newRowBreakLine{
+  display:none;
+}
+.otherRegistrationText{
+  display:none;
+}
+}
+@media screen and (min-width:991px){
+  #btn-OtherRegistrationBtn{
+    display:none;
+  }
+}
+/* DESCRIPTION SECTION */
+.descriptionSection{
+  margin: 4em;
+  text-align:center;
+  justify-content:space-around;
+}
+@media (max-width: 767px) {
+  .descriptionSection{
+    margin: 2em 0;
+  }
+}
+
+/* 3Boxex section */
+.threeBoxesSection{
+  padding:4em;
+   background-color: #fafafa;
+}
+@media (max-width: 767px) {
+  .threeBoxesSection{
+    padding: 2em 0;
+  }
+}
+
+
+.description3Box{
+  font-size:20px;
+}
+
+/* Modules SECTION */
+.descriptionText{
+  font-size:20px;
+  line-height:28px;
+  text-align: justify;
+}
+.modulesTitle{
+  font-size:30px;
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+.modulesTitle:before {
+  content:"•";
+}
+.modulesText{
+  font-size:20px;
+  font-weight: 300;
+}
+.modulesDate{
+  font-size:20px;
+  font-weight: 400;
+}
+
+/* CLASSMARKER section */
+.testQuestionsSection{
+  padding-bottom: 2em;
+}
+.testQuestionsSection .text{
+  padding:2em;
+}
+
+/* TRAINER SECTION*/
+
+.trainerSection{
+   padding: 4em 0;
+   font-weight:300:;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  .trainerSection{
+    margin: 2em 0;
+  }
+}
+.trainerTitle{
+     font-size: 40px;
+     /* background-color: white; */
+     /* opacity: 0.5; */
+}
+.trainerContent .title{
+    margin-top: 10px;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.trainersCard{
+    width: 240px;
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    height: 300px;
+    vertical-align: top;
+}
+.trainerPicture{
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.trainerContent{/* background-color: white; *//* opacity: 0.5; */}
+
+/* MODULE SECTION */
+.modulesSection{
+  padding:2em 0;
+}
+.more-less{
+  float:right;
+}
+h4.panel-title a{
+  text-decoration:none;
+}
+.videoModuleRecordingTime{
+  padding-left:56px
+}
+.videoButton{
+  float:right;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.videoButton img{
+  width:35px;
+  /* -webkit-transform: rotate(45deg); */
+  /*-moz-transform: rotate(45deg);*/
+  /*-o-transform: rotate(45deg);*/
+  /*-ms-transform: rotate(45deg);*/
+  /* transform: rotate(45deg); */
+  /* transform-origin: 0 0; */
+}
+.videoButton img:hover{
+-webkit-animation: play 1s infinite;
+-webkit-animation-direction: alternate;
+animation: play 1s infinite;
+animation-direction:alternate;
+}
+@-webkit-keyframes play{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(45deg);}
+}
+@keyframes play{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(45deg);}
+}
+
+/* DOWNLOAD SECTION */
+.downloadSection{
+  padding: 1em;
+}
+.downloadLink{
+  
+}
+/* PRECOURSE SECTION */
+
+.precourseSection{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: #fafafa;
+}
+.precourseSection .title{
+     font-size:35px;
+    padding-bottom: 1em;
+}
+/* SIMILAR COURSES SECTION */
+.similarCoursesSection{
+  background-color:#fafafa;
+
+}
+.similarCoursesSection .title{
+  text-align:center;
+  padding:1em 0;
+}
+
+/* Questionnaire SECTION */
+.questionnaireSection{
+  background-size:cover;
+  color:white;
+}
+.questionnaireSectionTitle{
+  font-size:45px;
+  margin-top:0.5em;
+}
+.questionnaireSectionText{
+  font-size:20px;
+  margin-top:1em;
+}
+#btn-quetionnaire{
+    background-color:#003f7d;
+    margin:2em 0;
+    color:white;
+}
+
+/* Advertisement  SECTION */
+.advertisementSection{height: 400px;}
+@media screen and (max-width: 768px) {	
+.advertisementSection{height: 620px;}
+}
+
+/* TECH INFO SECTION */
+.technicalWarning{
+  text-align:center;
+  font-size:23px;
+}
+
+/* VIDEO SECTION */
+.coursePicture{
+  padding-bottom:20px;
+}
+.videoJumperSection {
+  background-color:#fafafa;
+  padding-bottom:3em
+}
+.videoJumperSection .text{
+  font-size:25px;
+  margin-bottom:8em;
+}
+@media screen and (max-width: 1200px) {	
+.videoJumperSection .text{
+  margin-bottom:3em;
+}
+}
+@media screen and (max-width: 975px) {	
+.videoJumperSection .text{
+  margin-bottom:1em;
+}
+}
+.videoJumperSection a.btn{
+  font-size:25px;
+  width:auto !important;
+}
+.coursePicture img{
+  width:100%;
+}
+.coursePicture img.CourseVideoPlayButton{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    cursor: pointer;
+    width: inherit;
+}
+@media screen and (max-width: 995px) {	
+.coursePicture img.CourseVideoPlayButton{
+    top: 20%;
+    left: 35%;
+}}
+@media screen and ( max-width: 650px) {	
+.coursePicture img.CourseVideoPlayButton{
+    top: 20%;
+    left: 30%;
+}}
+@media screen and ( max-width: 550px) {	
+.coursePicture img.CourseVideoPlayButton{
+    top: 20%;
+    left: 35%;
+    width:150px;
+}}
+@media screen and ( max-width: 450px) {	
+.coursePicture img.CourseVideoPlayButton{
+    top: 10%;
+    left: 30%;
+    width:150px;
+}}
+
+@media screen and ( max-width: 325px) {	
+.coursePicture img.CourseVideoPlayButton{
+    top: 8%;
+    left: 25%;
+    width:150px;
+}}
+
+/*modal-open .modal{
+  overflow: visible;
+}*/
+.videoSectionTitle{
+  padding: 0.5em 0;
+  font-size:40px
+}
+.videoModuleTitle{
+  inline-height:28px;
+  font-size:20px
+}
+.videoModuleVideoTitle{
+  inline-height:20px;
+  font-size:15px;
+  cursor:pointer;
+  line-height: 25px;
+}
+.videoModuleVideoTitleInactive{
+    inline-height:20px;
+  font-size:15px;
+  cursor:pointer;
+}
+.modalVideoPlayer{
+  height: 50%;
+}
+.modalModuleTitle{
+  font-weight:bold;
+}
+.videoPlayerIcon{
+  float:left;
+  margin-right:20px;
+}
+.videoPlayerIcon img{
+  width:35px;
+  margin-top: 10px;
+}
+.videoDownloadIcon{
+  float:left;
+  margin-right:20px;
+}
+.videoDownloadIcon img{
+  width:35px;
+  margin-top: 10px;
+}
+/* ADMIN SECTION */
+.buttonRow{
+  padding:1em 0;
+}
+.labelRow{
+  padding:1em 0;
+}
+.videos a{
+  cursor:pointer;
+}
+
+/* POPUP SECTION */
+.modal-footer .videoTitles{
+  float:left;
+  text-align:left;
+}
+.videoWrapper{
+      position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+#vimeoFrame{
+      position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* VIMEO DOWNLOAD SECTION*/
+
+.vimeo-download-popup {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.vimeo-download-underlay {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: -40px;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.75);
+    -webkit-backface-visibility: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.vimeo-download-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 1000;
+    width: 37.5rem;
+    margin: 0;
+    padding: 0;
+    border-radius: .3125rem;
+    background-color: transparent;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.vimeo-download-header {
+    position: relative;
+    margin: 0;
+    padding: 1.5625rem 3.125rem 1.5625rem 1.5625rem;
+    font-size: 1.25rem;
+    color: #40545C;
+    border-bottom: 1px solid #D0D8DB;
+    background-color: #F4F6F6;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    border-radius: .3125rem .3125rem 0 0;
+}
+
+.vimeo-download-warning{
+    background-color: #FFF;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    color: red;
+    text-align: center;
+    padding-top: 1.25rem;
+    font-size: x-large;
+}
+.vimeo-download-btn-close {
+    position: absolute;
+    z-index: 1003;
+    top: 50%;
+    right: 1.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #879CAB;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.vimeo-download-content {
+    padding: 1.25rem;
+    background-color: #FFF;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    font-size: .875rem;
+    border-radius: 0 0 .3125rem .3125rem;
+}
+
+.vimeo-download_table {
+    border-collapse: collapse;
+}
+
+.vimeo-download_table-item{
+    height: 3.4375rem;
+}
+
+
+.vimeo-download_table-data:nth-last-of-type(n+3):first-child {
+    width: 50%;
+    font-weight: 700;
+    color: #40545C;
+    text-align: left;
+}
+.vimeo-download_table-data:nth-last-of-type(n+3):first-child~.vimeo-download_table-data {
+    color: #8A9599;
+    font-size: .875rem;
+}
+.vimeo-download_table-data:nth-of-type(n+3):last-child {
+    width: 12%;
+    padding-top: .625rem;
+    padding-left: .625rem;
+    text-align: center;
+}
+.vimeo-download_table-data {
+    border-bottom: 1px solid #E3E8E9;
+    text-align: right;
+    vertical-align: initial;
+}
+.vimeo-download_table-item:last-of-type .vimeo-download_table-data {
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.vimeo-download_btn {
+    color: #FFF;
+    background-color: #3A5161;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: .54em .84em .65em;
+    font-size: 16px;
+    line-height: 1.3;
+    border: none;
+    border-radius: .3125rem;
+    outline: 0;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    letter-spacing: .01em;
+    text-decoration: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+
+/* ADMIN */
+.mailSender{
+   background-color: lightgray;
+}
+/* ADMIN */
+.numberOfStudents,
+.mailSender{
+   background-color: lightgray;
+}
+.mailModyPreview{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sentEmailSection{
+    color: white;
+    margin-bottom: 1em;
+}
+.techFaq{
+  text-align:center;
+}
+.techFaq a{
+  color:red;
+}

@@ -1,0 +1,43 @@
+.cookie-warning {
+	background: rgba(0,0,0,.75);
+	color: #fff;
+	font-size: 12px;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	z-index: 3000;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+	zoom: 1; /* Added by box shadow plugin */
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.5); /* Added by box shadow plugin */
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.5); /* Added by box shadow plugin */
+	filter: progid:DXImageTransform.Microsoft.Glow(color='#00000000', Strength='5'); /* Added by box shadow plugin */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Glow(color='#00000000', Strength='5')"; /* Added by box shadow plugin */
+  display:none;
+}
+.cookie-warning .wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+}
+.cookie-warning .text {
+	width: 70%;
+	float: left;
+}
+.cookie-warning .buttons {
+	width: 25%;
+	float: right;
+}
+.cookie-warning .buttons a {
+	display: inline-block;
+	padding: 0 10px;
+	background: #fff;
+	color: #666666;
+	line-height: 30px;
+	-moz-border-radius: 4px; /* Added by border radius plugin */
+	-webkit-border-radius: 4px; /* Added by border radius plugin */
+	-khtml-border-radius: 4px; /* Added by border radius plugin */
+	border-radius: 4px; /* Added by border radius plugin */
+	margin-bottom: 10px;
+}
