@@ -13,6 +13,20 @@
 * [Authentication, Authorization](https://2014.drupalcamp.es/sites/default/files/slides/Authentication%20in%20Drupal%208.pdf)
 * [Theme negotiation](https://www.webomelette.com/choose-your-theme-dynamically-drupal-8-theme-negotiation)
   * azaz van egy route amire egy bizonyos sminket akarsz betölteni a default helyett
+* [How to decouple Drupal in 2018](https://dri.es/how-to-decouple-drupal-in-2018)
+
+
+#### Progressive Decoupling
+
+**Mit is jelent ez?**
+
+Nem is választod le teljesen a frontendet, ezáltal nem lesz headless. 
+
+Nem is csak a Drupal adta lehetőségeket használod (renderable array, form api, egyebek).
+
+Kicsit mindkét világból szemezgetsz.
+
+* [2018 Decoupled Days New York](https://2018.decoupleddays.com/)
 
 ## JS related
 
