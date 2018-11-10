@@ -27,6 +27,8 @@ Nem is csak a Drupal adta lehetőségeket használod (renderable array, form api
 Kicsit mindkét világból szemezgetsz.
 
 * [2018 Decoupled Days New York](https://2018.decoupleddays.com/)
+* [GraphQL Twig](https://www.drupal.org/project/graphql_twig)
+  * a példa amit a modul oldalára írtak hibás, a github repoban levő példa valid
 
 ## JS related
 
